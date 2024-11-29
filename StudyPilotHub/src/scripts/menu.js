@@ -51,5 +51,5 @@ submitButton.addEventListener("click", () => {
     }
 
     const value = `${focusTimeInt.toString().padStart(2, '0')}${pauseTimeInt.toString().padStart(2, '0')}`;
-    window.location.href = `timer.html?value=${value}`;
+    window.location.href = `StudyPilotHub/src/pages/timer.html?value=${value}`;
 });
